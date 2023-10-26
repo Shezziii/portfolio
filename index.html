@@ -1,245 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Mohd Shuib Khan Profile</title>
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="style.css">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<style>
-  img{
-    height: 25%;
-    width: 100%;
-    Margin:auto;
-padding:auto;
-  }
-</style>
-<style>
-    body {
-      background-color: #000000; /* Dark background color */
-      color: #fff; /* Light text color */
-    }
+  <title>Document</title>
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    /* Add dark mode styles for other elements as needed */
+  <style>
+    @import url('https://fonts.cdnfonts.com/css/monospace');
+  
+  *{
+  font-family: 'Monospace', sans-serif;
+
+  }
+  body{
+  background-color: black;
+  color: white;
+  }
+  .btn-contact{
+  background-color: #00afff;
+  color:white;
+  }
+  .btn-contact:hover{
+  background-color: #00afff;
+  color:white;
+  }
+  .about-section {
+  background: url('background-image.jpg') no-repeat center;
+  background-size: cover;
+  color: #fff;
+  padding: 50px 0;
+  }
+  .about-section h1 {
+  font-size: 3rem;
+  }
+  .about-section p {
+  font-size: 1.2rem;
+  }
+  .ALERT{
+    background-color: #00afff;
+    color:white;
+
+  }
+
+
   </style>
 </head>
-<body>
-  <!-- Navbar -->
 
-  <!-- Header -->
-  <!-- Header -->
-  <header class="header text-center mt-5">
+<body>
+  <!-- MDB --><!-- Navbar -->
+  <nav class="navbar navbar-expand-lg ">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Toggle button -->
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars text-white"></i>
+      </button>
+
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Navbar brand -->         
+
+        <!-- Left links -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-white" href="#">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-white" href="#">Projects</a>
+          </li>
+        </ul>
+        <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+
+      <!-- Right elements -->
+      <div class="d-flex align-items-center">
+        <!-- Icon -->
+        <a class="link-secondary me-3" href="#">
+          <i class="fas fa-shopping-cart"></i>
+        </a>
+
+        <!-- Notifications -->
+        <div class="dropdown">
+          <a class="link-secondary me-3 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink" role="button"
+            data-mdb-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-bell"></i>
+            <span class="badge rounded-pill badge-notification bg-danger">1</span>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+            <li>
+              <a class="dropdown-item" href="#">Some news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Another news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Avatar -->
+        <div class="dropdown">
+          <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#" id="navbarDropdownMenuAvatar"
+            role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuAvatar">
+            <li>
+              <a class="dropdown-item" href="#">My profile</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Settings</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Right elements -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+  <header class="header text-center mt-3">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-12 col-md-6">
-          <img src="https://th.bing.com/th/id/R.439ea5ff0e3cb4fd1dc59d184ea30876?rik=fUIln9JjZTOpBA&riu=http%3a%2f%2fstatic.tumblr.com%2fjyrpyyk%2fdAKmkugna%2fxds.gif&ehk=HcXK6Zs6Egiki2j3XoNw5f4IrcRNcHrfP6dh9hHunDs%3d&risl=&pid=ImgRaw&r=0" alt="GIF Description" class="img-fluid" style="max-width: 100%;">
+        <div class="col-12 col-md-6" data-aos="fade-right">
+          <img
+            src="https://th.bing.com/th/id/R.439ea5ff0e3cb4fd1dc59d184ea30876?rik=fUIln9JjZTOpBA&riu=http%3a%2f%2fstatic.tumblr.com%2fjyrpyyk%2fdAKmkugna%2fxds.gif&ehk=HcXK6Zs6Egiki2j3XoNw5f4IrcRNcHrfP6dh9hHunDs%3d&risl=&pid=ImgRaw&r=0"
+            alt="GIF Description" class="img-fluid" style="max-width: 100%;">
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6" data-aos="fade-left">
           <h1 class="mt-2">Hi, I'm Mohd Shuib Khan</h1>
-          <p class="lead mt-3">A student & job seeker with experience in web development</p>
-          <a href="#contact" class="btn btn-primary btn-lg mt-3">Contact me</a>
+          <p class="lead mt-3" id="typing-effect">A student & job seeker with experience in web development</p>
+
+        
+          
+          <a href="#contact" class="btn btn-contact btn-lg mt-3">Contact me</a>
         </div>
       </div>
     </div>
   </header>
-  
-<br><br><br><br>
-  About section
-  <section id="about" class="section">
+  <!-- About Me Section -->
+  <section id="about" class="about-section text-center">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-6 mt-5"><br><br><br>
-          <h2 class="mt-5 alert alert-secondary ">About Me</h2>
-          <p class="lead">I am a student at IFTM University Moradabad . I am passionate about Coding and Development and have excellent skills in python , django , bootstrap , sql and Mongodb along with others. I am a quick learner and enjoy working in a team environment.now i'am seeking a beginner role to enhance and explore my tech knowledge and start my career and explore the computer field & get better understanding in technology from seniors.</p>
-        </div>
-        <div class="col-lg-6 mt-5"><br><div class="" >
-          <img src="https://www.linkpicture.com/q/1671630443552-01.jpeg" 
-          alt="John Doe" class=" rounded-circle" >
-        </div></div>
-      </div>
+      <h1 data-aos="fade-left" class="alert ALERT">About Me</h1>
+      <p  data-aos="fade-right">
+        Welcome to my corner of the internet! I'm Mohd Shuib Khan, a recent BCA graduate from IFTM University, passionate about technology and web development. Located in Lal Bagh, Hasanpur, Amroha, UP, India. Experienced in Full Stack Web Development, PHP, REST APIs, jQuery, MySQL, AJAX, and database management. Proficient in Git and GitHub. Freelancer specializing in PHP Core, Python, and Django. Notable projects: RESTful APIs for UpBot Monitoring Tool and a Stack Overflow-inspired platform. Eager to learn, collaborate, and make an impact. Let's connect and explore together!
+    </p>
     </div>
+   
   </section>
-</div><!-- Education section -->
-<section id="education" class="section mt-5">
-  <div class="container">
-    <h2 class="alert alert-secondary">Education</h2>
-    <div class="row mt-3">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card">
-              <div class="card-body" style="height: 10em;">
-                <h4>Bachelor's in Computer Application.</h4>
-                <p class="text-muted">IFTM University | Graduation: May 2023</p>
-                <p>GPA: 8.7 Above</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card">
-              <div class="card-body"  style="height: 10em;">
-                <h4>Intermediate.</h4>
-                <p class="text-muted">AAAIC Hasanpur | Complete: 2019</p>
-                <p>Marks: 64.40%</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card">
-              <div class="card-body"  style="height: 10em;">
-                <h4>Highschool.</h4>
-                <p class="text-muted">AAAIC Hasanpur | Complete: 2017</p>
-                <p>Marks: 70.83%</p>
-              </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-     
-      
-     
-    </div>
-  </div>
-</section><br>
-
-  <!-- Skills section -->
-  <section id="skills" class="section mt-5"><br>
-    <div class="container">
-      <h2 class="alert alert-secondary">Skills</h2>
-      <div class="row">
-        <div class="card border-0">
-       <ul><p class="lead">
-          <tr class="table-secondary">
-            <li class="">Python.</li>
-         
-          <tr class="table-secondary">
-            <li class="">Django.</li>
-       
-          <tr class="table-secondary">
-            <li class="">Html/Css/JavaScript.</li>
-           
-          <tr class="table-secondary">
-          <li class="">Bootstrap.</li>
-          
-            <li class="">Sql/Nosql.</li>
-          
-        <li> Good understanding in C , C++ , C# , Java along with others technology.</li></p>
-      </ul>
-        </div></div></div>
-                   
-                        <!-- Education section -->
-                        <section id="projects" class="section mt-5">
-                          <div class="container card border-0">
-                            <h2 class="alert alert-secondary">Projects</h2>
-                            <div class="row mt-3 ">
-                              <div class="card-body">
-                                <h4>iCoder Webapp.</h4>
-                                <p class="text-muted">icoder web is platform for all coders to solve our error and query using others experience.this webapp is develope by using Django framework. </p>
-                                <p> <a href="https://github.com/Shezziii/iCoder-Q-A-WebApp" class="btn btn-primary">Get Code.</a></p>
-                              </div>
-                              
-                            </div>
-                            <div class="row mt-3">
-                              <div class="card-body">
-                                <h4>Personal Website.</h4>
-                                <p class="text-muted">this is a platform for me to show my skills and education over internet.this webapp is develope by using Bootstrap framework. </p>
-                                <p> <a href=" https://github.com/Shezziii/Personal-Web"  class="btn btn-primary">Get Code.</a></p>
-                              </div>
-                              
-                            </div>
-                            <div class="row mt-3">
-                              <div class="card-body">
-                                <h4>School Management System.</h4>
-                                <p class="text-muted">It is platform for all schools to Automate our work using System.this webapp is develope by using Python and slite3. </p>
-                                <p> <a href="https://github.com/Shezziii/School-Management-System"  class="btn btn-primary">Get Code.</a></p>
-                              </div>
-                              </div>
-                            
-                              <div class="row mt-3">
-                                <div class="card-body">
-                                  <h4>Conference Room Booking System.</h4>
-                                  <p class="text-muted">It is a platform for all Hotels to automate our register work. this webapp is develope by using Django framework. </p>
-                                  <p> <a href="https://github.com/Shezziii/Hotel-Management-System."  class="btn btn-primary">Get Code.</a></p>
-                                </div>
-                                
-                              
-                            </div>
-                            <div class="row mt-3">
-                              <div class="card-body">
-                                <h4>CRUD WebApp.</h4>
-                                <p class="text-muted">this webapp is develope by using Bootstrap and Django framework. </p>
-                                <p> <a href="https://github.com/Shezziii/CRUD-Services." class="btn btn-primary">Get Code.</a></p>
-                              </div>
-                              
-                            </div>
-                            <div class="row mt-3">
-                              <div class="card-body">
-                                <h4>Login System.</h4>
-                                <p class="text-muted">this webapp is develope by using Bootstrap and Django framework. </p>
-                                <p> <a href="https://github.com/Shezziii/login-System." class="btn btn-primary">Get Code.</a></p>
-                              </div>
-                              
-                            </div>
-                          </div>
-                        </section>
-                      <!-- Contact section -->
-                      <section id="contact" class="section mt-5">
-                        <div class="container">
-                          <h2 class="
-                          alert alert-secondary">Contact Me</h2>
-                          <form novalidate class="card border-0">
-                            <div class="mb-3 mt-3">
-                              <label for="name" class="form-label">Name</label>
-                              <input type="text" class="form-control" id="name" required>
-                            </div>
-                            <div class="mb-3">
-                              <label for="email" class="form-label">Email address</label>
-                              <input type="email" class="form-control" id="email" required>
-                            </div>
-                            <div class="mb-3">
-                              <label for="message" class="form-label">Message</label>
-                              <textarea class="form-control" id="message" rows="5" required></textarea>
-
-    </div>
-    <div type="submit" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Submit</div>
-  </form>
-  <div class="modal fade" id="myModal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-  <br>
-        <p class="alert alert-secondary m-auto p-auto">This website is under construction that's why you may not use contact field. .</p>
-  
-        <!-- Modal footer -->
-        <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          </div>
-  
-      </div>
-    </div>
-  </div>
-  
-</div>
-  </section>
-  <!-- Footer section -->
-  <footer class="bg-light py-3">
-    <div class="container alert alert-black">
-      <p class="text-center">&copy; 2023 Mohd Shuib Khan</p>
-    </div>
-  </footer>
-  <!-- Bootstrap 5 JS Bundle with Popper.js -->
-  <script src="https://unpkg.com/@popperjs/core@2.9.3/dist/bundle.min.js"
-    integrity="sha384-q3qjB7CnJwznNQ7VJkiq3Xo7Vf0tSTZ0jVZoCJlY7VZIZem1jNZJmcWxKxG9ttV4"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.4.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-yKj5e2Q5gkS5C2K1+x3u3yp9XVtOGn+wbR22V7GaaJpDDzV7IZCEIDnRvCdjy+Nx"
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    <script>
+      const textArray = [
+        "Passionate about coding and technology",
+        "Eager to learn and adapt to new challenges",
+        "Dedicated to creating innovative web solutions"
+      ];
+      let textIndex = 0;
+      let charIndex = 0;
+      let isDeleting = false;
+    
+      function typeText() {
+        const currentText = textArray[textIndex];
+        const typingEffect = document.getElementById('typing-effect');
+    
+        if (isDeleting) {
+          typingEffect.textContent = currentText.substring(0, charIndex - 1);
+          charIndex--;
+        } else {
+          typingEffect.textContent = currentText.substring(0, charIndex + 1);
+          charIndex++;
+        }
+    
+        if (!isDeleting && charIndex === currentText.length) {
+          isDeleting = true;
+          setTimeout(typeText, 1500); // Pause at the end of the text
+        } else if (isDeleting && charIndex === 0) {
+          isDeleting = false;
+          textIndex = (textIndex + 1) % textArray.length; // Cycle through texts
+          setTimeout(typeText, 500); // Delay before typing the next text
+        } else {
+          setTimeout(typeText, 50); // Typing speed
+        }
+      }
+    
+      // Start typing effect
+      typeText();
+    </script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
 </body>
+
 </html>
