@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Mohd Shuib Khan</title>
   <!-- Font Awesome -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
   <!-- Google Fonts -->
@@ -53,7 +53,50 @@
   }
 
 
-  </style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #3498db;
+        }
+        a {
+            color: #e74c3c;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .command {
+            color: #f1c40f;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            border-bottom: 1px solid #fff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .skills-list, .projects-list, .contacts-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills-list li, .projects-list li, .contacts-list li {
+            margin-bottom: 10px;
+        }
+        .terminal {
+            background-color: #222;
+            padding: 15px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 
 <body>
@@ -153,18 +196,72 @@
           <a href="#contact" class="btn btn-contact btn-lg mt-3">Contact me</a>
         </div>
       </div>
+      <div class="container">
+        <div class="section">
+            <h1>Mohd Shuib Khan</h1>
+            <p>Backend Developer | Enthusiastic Learner | Tech Enthusiast</p>
+        </div>
+        <div class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="terminal">
+                <p class="command">> whoami</p>
+                <p>I'm Mohd Shuib Khan, a passionate backend developer with expertise in Laravel, PHP, Node.js, and Python. I love solving complex problems and building efficient, scalable applications.</p>
+            </div>
+        </div>
+        <div class="section">
+            <h2 class="section-title">Skills</h2>
+            <ul class="skills-list">
+                <li>PHP</li>
+                <li>Laravel</li>
+                <li>Node.js</li>
+                <li>Python</li>
+                <li>RESTful APIs</li>
+                <li>MySQL</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2 class="section-title">Projects</h2>
+            <ul class="projects-list">
+                <li><strong>Project 1:</strong> <a href="#" target="_blank">E-commerce Platform</a> - Developed a full-fledged e-commerce platform with a custom CMS using Laravel.</li>
+                <li><strong>Project 2:</strong> <a href="#" target="_blank">Task Management Tool</a> - Built a task management tool with real-time notifications using Node.js and Socket.io.</li>
+                <li><strong>Project 3:</strong> <a href="#" target="_blank">API for Monitoring Tool</a> - Created a RESTful API for a monitoring tool using Python and Flask.</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2 class="section-title">Contact</h2>
+            <ul class="contacts-list">
+                <li>Email: <a href="mailto:i.am.shezziii@gmail.com">i.am.shezziii@gmail.com</a></li>
+                <li>LinkedIn: <a href="#" target="_blank">linkedin.com/in/mohdshuibkhan</a></li>
+                <li>GitHub: <a href="#" target="_blank">github.com/mohdshuibkhan</a></li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2 class="section-title">Get in Touch</h2>
+            <form id="contact-form">
+                <div class="terminal">
+                    <p class="command">> echo "Your Name:"</p>
+                    <input type="text" id="name" name="name" style="width: 100%; padding: 5px; margin-bottom: 10px;">
+                    <p class="command">> echo "Your Email:"</p>
+                    <input type="email" id="email" name="email" style="width: 100%; padding: 5px; margin-bottom: 10px;">
+                    <p class="command">> echo "Your Message:"</p>
+                    <textarea id="message" name="message" rows="5" style="width: 100%; padding: 5px; margin-bottom: 10px;"></textarea>
+                    <button type="submit" style="background-color: #e74c3c; color: #fff; padding: 10px; border: none; cursor: pointer;">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Message sent successfully!');
+        });
+    </script>
     </div>
   </header>
   <!-- About Me Section -->
-  <section id="about" class="about-section text-center">
-    <div class="container">
-      <h1 data-aos="fade-left" class="alert ALERT">About Me</h1>
-      <p  data-aos="fade-right">
-        Welcome to my corner of the internet! I'm Mohd Shuib Khan, a recent BCA graduate from IFTM University, passionate about technology and web development. Located in Lal Bagh, Hasanpur, Amroha, UP, India. Experienced in Full Stack Web Development, PHP, REST APIs, jQuery, MySQL, AJAX, and database management. Proficient in Git and GitHub. Freelancer specializing in PHP Core, Python, and Django. Notable projects: RESTful APIs for UpBot Monitoring Tool and a Stack Overflow-inspired platform. Eager to learn, collaborate, and make an impact. Let's connect and explore together!
-    </p>
-    </div>
-   
-  </section>
+
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
