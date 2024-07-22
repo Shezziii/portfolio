@@ -2,77 +2,111 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mohd Shuib Khan</title>
-  <!-- Font Awesome -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-  <!-- MDB -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-   <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohd Shuib Khan</title>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
- 
-  <style>
-    @import url('https://fonts.cdnfonts.com/css/monospace');
-  
-  *{
-  font-family: 'Monospace', sans-serif;
 
-  }
+    <link rel="icon" type="image/x-icon"
+        href="https://bcscallprocessing.com/wp-content/uploads/2019/11/cropped-favicon-500x500.png">
 
-       .carousel-item {
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/monospace');
+
+        * {
+            font-family: 'Monospace', sans-serif;
+
+        }
+
+        .carousel-item {
             text-align: center;
         }
+
         .carousel-item i {
-            font-size: 5rem;
-            color: #333; /* Adjust color if needed */
+            font-size: 8rem;
+            color: #333;
+            /* Adjust color if needed */
             margin: 20px;
         }
-        .carousel-control-prev, .carousel-control-next {
-            filter: invert(100%); /* Optional: invert control icons for better visibility */
+
+        .contact-icons a {
+            display: inline-block;
+            margin: 0 10px;
         }
+
+        .contact-icons i {
+            font-size: 43px;
+            /* Adjust size as needed */
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .contact-icons i {
+                font-size: 38px;
+                /* Adjust size for smaller screens */
+            }
+        }
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            filter: invert(100%);
+            /* Optional: invert control icons for better visibility */
+        }
+
         .section {
             padding: 20px;
         }
+
         .section-title {
             margin-bottom: 20px;
         }
-    
-  body{
-  background-color: black;
-  color: white;
-  }
-  .btn-contact{
-  background-color: #00afff;
-  color:white;
-  }
-  .btn-contact:hover{
-  background-color: #00afff;
-  color:white;
-  }
-  .about-section {
-  background: url('background-image.jpg') no-repeat center;
-  background-size: cover;
-  color: #fff;
-  padding: 50px 0;
-  }
-  .about-section h1 {
-  font-size: 3rem;
-  }
-  .about-section p {
-  font-size: 1.2rem;
-  }
-  .ALERT{
-    background-color: #00afff;
-    color:white;
 
-  }
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        .btn-contact {
+            background-color: #00afff;
+            color: white;
+        }
+
+        .btn-contact:hover {
+            background-color: #00afff;
+            color: white;
+        }
+
+        .about-section {
+            background: url('background-image.jpg') no-repeat center;
+            background-size: cover;
+            color: #fff;
+            padding: 50px 0;
+        }
+
+        .about-section h1 {
+            font-size: 3rem;
+        }
+
+        .about-section p {
+            font-size: 1.2rem;
+        }
+
+        .ALERT {
+            background-color: #00afff;
+            color: white;
+
+        }
 
 
         body {
@@ -81,64 +115,92 @@
             font-family: 'Courier New', Courier, monospace;
             padding: 20px;
         }
+
         .container {
             max-width: 800px;
             margin: auto;
         }
-        h1, h2, h3, h4, h5, h6 {
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
             color: #3498db;
         }
+
         a {
             color: #e74c3c;
             text-decoration: none;
         }
+
         a:hover {
             text-decoration: underline;
         }
+
         .command {
             color: #f1c40f;
         }
+
         .section {
             margin-bottom: 30px;
         }
+
         .section-title {
             border-bottom: 1px solid #fff;
             padding-bottom: 10px;
             margin-bottom: 20px;
         }
-        .skills-list, .projects-list, .contacts-list {
+
+        .skills-list,
+        .projects-list,
+        .contacts-list {
             list-style-type: none;
             padding: 0;
         }
-        .skills-list li, .projects-list li, .contacts-list li {
+
+        .skills-list li,
+        .projects-list li,
+        .contacts-list li {
             margin-bottom: 10px;
         }
+
         .terminal {
             background-color: #222;
             padding: 15px;
             border-radius: 5px;
         }
 
-    .carousel-item img {
+        .carousel-item img {
             max-width: 100%;
-            height: auto; /* Maintain aspect ratio */
+            height: auto;
+            /* Maintain aspect ratio */
         }
-        .carousel-control-prev, .carousel-control-next {
-            filter: invert(100%); /* Optional: invert control icons for better visibility */
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            filter: invert(100%);
+            /* Optional: invert control icons for better visibility */
         }
+
         .section {
             padding: 20px;
         }
+
         .section-title {
             margin-bottom: 20px;
         }
+
         .contacts-list {
             list-style-type: none;
             padding: 0;
         }
+
         .contacts-list li {
             margin-bottom: 10px;
         }
+
         .contacts-list a {
             text-decoration: none;
         }
@@ -147,146 +209,221 @@
 
 <body>
 
-  <!-- Navbar -->
-  <header class="header text-center mt-3">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-12 col-md-6" data-aos="fade-right">
-          <img
-            src="https://th.bing.com/th/id/R.439ea5ff0e3cb4fd1dc59d184ea30876?rik=fUIln9JjZTOpBA&riu=http%3a%2f%2fstatic.tumblr.com%2fjyrpyyk%2fdAKmkugna%2fxds.gif&ehk=HcXK6Zs6Egiki2j3XoNw5f4IrcRNcHrfP6dh9hHunDs%3d&risl=&pid=ImgRaw&r=0"
-            alt="GIF Description" class="img-fluid" style="max-width: 100%;">
-        </div>
-        <div class="col-12 col-md-6" data-aos="fade-left">
-          <h1 class="mt-2">Hi, I'm Mohd Shuib Khan</h1>
-          <p class="lead mt-3" id="typing-effect">A student & job seeker with experience in web development</p>
-        </div>
-      </div>
-      <div class="container">
-        
-        <div class="section">
-            <h2 class="section-title">About Me</h2>
-            <div class="terminal">
-                <p class="command">> whoami</p>
-                <p>I am Mohd Shuib Khan, a passionate backend developer with expertise in Laravel, PHP, Node.js, and Python. I excel in solving complex problems and building scalable, efficient applications. With a meticulous approach and a commitment to delivering high-quality projects, I've developed a custom CMS for an e-commerce platform, a real-time task management tool using Node.js, and a robust RESTful API with Python and Flask. I am a dedicated team player and an eager learner, constantly updating my skills to stay at the forefront of technology. I love solving complex problems and building efficient, scalable applications.</p>
-            </div>
-        </div>
-        <div class="section">
-            <h2 class="section-title">Skills</h2>
-            <ul class="skills-list">
-                <li>PHP</li>
-                <li>Laravel</li>
-                <li>Node.js</li>
-                <li>Python</li>
-                <li>RESTful APIs</li>
-                <li>MySQL</li>
-                <li>JavaScript</li>
-                <li>Git</li>
-            </ul>
-        </div>
-        <div class="section">
-            <h2 class="section-title">Projects</h2>
-            <ul class="projects-list">
-                <li> <a href="#" target="_blank">E-commerce Platform</a> - Developed a full-fledged e-commerce platform with a custom CMS using Laravel.</li>
-                <li> <a href="#" target="_blank">Task Management Tool</a> - Built a task management tool with real-time notifications using Node.js and Socket.io.</li>
-                <li> <a href="#" target="_blank">API for Monitoring Tool</a> - Created a RESTful API for a monitoring tool using Python and Flask.</li>
-            </ul>
-        </div>
-        <div class="section">
-               <div class="section">
-        <h2 class="section-title">Contact</h2>
-        <ul class="contacts-list">
-              <div class="container mt-5">
-        <h2 class="text-center">Contact Me</h2>
-        <div class="contact-icons mt-4">
-            <a href="https://github.com/shezii" target="_blank" class="text-decoration-none">
-                <i class="fab fa-github"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/mohd-shuib-khan" target="_blank" class="text-decoration-none">
-                <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="mailto:i.am.shezziii@gmail.com" class="text-decoration-none">
-                <i class="fas fa-envelope"></i>
-            </a>
-        </div>
-        </ul>
-        
-      
-        </div>
-        <div class="section">
-            <h2 class="section-title">Get in Touch</h2>
-            <form id="contact-form">
-                <div class="terminal">
-                    <p class="command"> echo "Your Name:"</p>
-                    <input type="text" id="name" name="name" style="width: 100%; padding: 5px; margin-bottom: 10px;">
-                    <p class="command"> echo "Your Email:"</p>
-                    <input type="email" id="email" name="email" style="width: 100%; padding: 5px; margin-bottom: 10px;">
-                    <p class="command"> echo "Your Message:"</p>
-                    <textarea id="message" name="message" rows="5" style="width: 100%; padding: 5px; margin-bottom: 10px;"></textarea>
-                    <button type="submit" style="background-color: #e74c3c; color: #fff; padding: 10px; border: none; cursor: pointer;">Send Message</button>
+    <!-- Navbar -->
+    <header class="header text-center mt-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6" data-aos="fade-right">
+                    <img src="https://th.bing.com/th/id/R.439ea5ff0e3cb4fd1dc59d184ea30876?rik=fUIln9JjZTOpBA&riu=http%3a%2f%2fstatic.tumblr.com%2fjyrpyyk%2fdAKmkugna%2fxds.gif&ehk=HcXK6Zs6Egiki2j3XoNw5f4IrcRNcHrfP6dh9hHunDs%3d&risl=&pid=ImgRaw&r=0"
+                        alt="GIF Description" class="img-fluid" style="max-width: 100%;">
                 </div>
-            </form>
-        </div>
-    </div>
-    <script>
-        document.getElementById('contact-form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Message sent successfully!');
-        });
-    </script>
-    </div>
-  </header>
-  <!-- About Me Section -->
+                <div class="col-12 col-md-6" data-aos="fade-left">
+                    <h1 class="mt-2">Hi, I'm Mohd Shuib Khan</h1>
+                    <p class="lead mt-3" id="typing-effect">A student & job seeker with experience in web development
+                    </p>
+                </div>
+            </div>
+            <div class="container pt-5 mt-5">
 
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+                <div class="section">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="terminal">
+                        <p class="command">> whoami</p>
+                        <p>I am Mohd Shuib Khan, a passionate backend developer with expertise in Laravel, PHP, Node.js,
+                            and Python. I excel in solving complex problems and building scalable, efficient
+                            applications. With a meticulous approach and a commitment to delivering high-quality
+                            projects, I've developed a custom CMS for an e-commerce platform, a real-time task
+                            management tool using Node.js, and a robust RESTful API with Python and Flask. I am a
+                            dedicated team player and an eager learner, constantly updating my skills to stay at the
+                            forefront of technology. I love solving complex problems and building efficient, scalable
+                            applications.</p>
+                    </div>
+                </div>
+                <div class="section">
+                    <h2 class="section-title">Tech & Tools</h2>
+                    <ul class="skills-list">
+                        <p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img
+                                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                                    alt="aws" width="80" height="80" /> </a> <a
+                                href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img
+                                    src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash"
+                                    width="80" height="80" /> </a>  <a
+                                href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img
+                                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"
+                                    alt="c" width="80" height="80" /> </a> <a href="https://www.w3schools.com/cpp/"
+                                target="_blank" rel="noreferrer"> <img
+                                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+                                    alt="cplusplus" width="80" height="80" /> </a> <a
+                                href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img
+                                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+                                    alt="css3" width="80" height="80" /> </a> <a href="https://www.djangoproject.com/"
+                                target="_blank" rel="noreferrer"> <img
+                                    src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40"
+                                    height="40" /> </a> <a href="https://www.docker.com/" target="_blank"
+                                rel="noreferrer"> <img
+                                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"
+                                    alt="docker" width="80" height="80" /> </a> <a href="https://www.figma.com/"
+                                target="_blank" rel="noreferrer"> <img
+                                    src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40"
+                                    height="40" /> </a> <a href="#" target="_blank"
+                                rel="noreferrer"> <img
+                                    src="https://iconape.com/wp-content/png_logo_vector/visual-studio-code.png" alt="flask"
+                                    width="80" height="80" /> </a> <a href="https://git-scm.com/" target="_blank"
+                                rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+                                    alt="git" width="80" height="80" /> </a> <a
+                                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"
+                                rel="noreferrer"> <img
+                                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                                    alt="javascript" width="80" height="80" /> </a>  <a href="https://www.linux.org/"
+                                target="_blank" rel="noreferrer"> <img
+                                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"
+                                    alt="linux" width="80" height="80" /> </a> <a href="https://www.mysql.com/"
+                                target="_blank" rel="noreferrer"> <img
+                                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
+                                    alt="mysql" width="80" height="80" /> </a> <a href="https://www.php.net"
+                                target="_blank" rel="noreferrer"> <img
+                                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg"
+                                    alt="php" width="80" height="80" /> </a> <a href="https://www.postgresql.org"
+                                target="_blank" rel="noreferrer"> <img
+                                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
+                                    alt="postgresql" width="80" height="80" /> </a> <a href="https://postman.com"
+                                target="_blank" rel="noreferrer"> <img
+                                    src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman"
+                                    width="80" height="80" /> </a> <a href="https://www.python.org" target="_blank"
+                                rel="noreferrer"> <img
+                                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+                                    alt="python" width="80" height="80" /> </a> <a href="https://www.sqlite.org/"
+                                target="_blank" rel="noreferrer"> <img
+                                    src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite"
+                                    width="80" height="80" /> </a> 
+                                <a href="https://www.sqlite.org/"
+                                target="_blank" rel="noreferrer"> <img
+                                    src="https://logospng.org/download/laravel/logo-laravel-icon-1024.png" alt="sqlite"
+                                    width="80" height="80" /> </a> 
+                                    <a href="https://www.sqlite.org/"
+                                    target="_blank" rel="noreferrer"> <img
+                                        src="https://th.bing.com/th/id/R.76984d489016bb78c8c347e661bb8e94?rik=v6h54jhMOjGWxg&riu=http%3a%2f%2fassets.stickpng.com%2fimages%2f62a76492bd73a4af5c5d4fb9.png&ehk=CCD7CF%2fzwR7i%2bBDVkut8Jbuzx%2bibavojdYkrIJG2PIc%3d&risl=&pid=ImgRaw&r=0" alt="sqlite"
+                                        width="100" height="100" /> </a> 
+                                </p>
+                                    
+
+                    </ul>
+                </div>
+                <!-- <div class="section">
+                    <h2 class="section-title">Projects</h2>
+                    <ul class="projects-list">
+                        <li> <a href="#" target="_blank">E-commerce Platform</a> - Developed a full-fledged e-commerce
+                            platform with a custom CMS using Laravel.</li>
+                        <li> <a href="#" target="_blank">Task Management Tool</a> - Built a task management tool with
+                            real-time notifications using Node.js and Socket.io.</li>
+                        <li> <a href="#" target="_blank">API for Monitoring Tool</a> - Created a RESTful API for a
+                            monitoring tool using Python and Flask.</li>
+                    </ul>
+                </div> -->
+                <div class="section">
+                    <div class="section">
+                        <h2 class="section-title">Contact Me</h2>
+                        <ul class="contacts-list">
+                            <div class="container mt-5">
+                                <div class="contact-icons mt-4">
+                                    <a href="https://github.com/shezii" target="_blank" class="text-decoration-none">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/mohd-shuib-khan" target="_blank"
+                                        class="text-decoration-none">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                    <a href="mailto:i.am.shezziii@gmail.com" class="text-decoration-none">
+                                        <i class="fas fa-envelope"></i>
+                                    </a>
+                                </div>
+                        </ul>
+
+
+                    </div>
+                    <div class="section">
+                        <h2 class="section-title">Get in Touch</h2>
+                        <form id="contact-form">
+                            <div class="terminal">
+                                <p class="command"> echo "Your Name:"</p>
+                                <input type="text" id="name" name="name"
+                                    style="width: 100%; padding: 5px; margin-bottom: 10px;">
+                                <p class="command"> echo "Your Email:"</p>
+                                <input type="email" id="email" name="email"
+                                    style="width: 100%; padding: 5px; margin-bottom: 10px;">
+                                <p class="command"> echo "Your Message:"</p>
+                                <textarea id="message" name="message" rows="5"
+                                    style="width: 100%; padding: 5px; margin-bottom: 10px;"></textarea>
+                                <button type="submit"
+                                    style="background-color: #e74c3c; color: #fff; padding: 10px; border: none; cursor: pointer;">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <script>
+                    document.getElementById('contact-form').addEventListener('submit', function (e) {
+                        e.preventDefault();
+                        alert('Message sent successfully!');
+                    });
+                </script>
+            </div>
+    </header>
+    <!-- About Me Section -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      const textArray = [
-        "Passionate about coding and technology",
-        "Eager to learn and adapt to new challenges",
-        "Dedicated to creating innovative web solutions",
-        "Backend Developer | Enthusiastic Learner | Tech Enthusiast"
-      ];
-      let textIndex = 0;
-      let charIndex = 0;
-      let isDeleting = false;
-    
-      function typeText() {
-        const currentText = textArray[textIndex];
-        const typingEffect = document.getElementById('typing-effect');
-    
-        if (isDeleting) {
-          typingEffect.textContent = currentText.substring(0, charIndex - 1);
-          charIndex--;
-        } else {
-          typingEffect.textContent = currentText.substring(0, charIndex + 1);
-          charIndex++;
-        }
-    
-        if (!isDeleting && charIndex === currentText.length) {
-          isDeleting = true;
-          setTimeout(typeText, 1500); // Pause at the end of the text
-        } else if (isDeleting && charIndex === 0) {
-          isDeleting = false;
-          textIndex = (textIndex + 1) % textArray.length; // Cycle through texts
-          setTimeout(typeText, 500); // Delay before typing the next text
-        } else {
-          setTimeout(typeText, 50); // Typing speed
-        }
-      }
-    
-      // Start typing effect
-      typeText();
+        AOS.init();
     </script>
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script>
+        const textArray = [
+            'print_r("Passionate about coding and technology");',
+            'echo "Eager to learn and adapt to new challenges"; ',
+            'console.log("Eager to learn and adapt to new challenges"); ',
+            'print("Dedicated to creating innovative web solutions")',
+            'cout<<"Dedicated to creating innovative web solutions"',
+            'ststem.out.println("Backend Developer | Enthusiastic Learner | Tech Enthusiast");',
+            'printf("Backend Developer | Enthusiastic Learner | Tech Enthusiast");'
+        ];
+        let textIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+
+        function typeText() {
+            const currentText = textArray[textIndex];
+            const typingEffect = document.getElementById('typing-effect');
+
+            if (isDeleting) {
+                typingEffect.textContent = currentText.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typingEffect.textContent = currentText.substring(0, charIndex + 1);
+                charIndex++;
+            }
+
+            if (!isDeleting && charIndex === currentText.length) {
+                isDeleting = true;
+                setTimeout(typeText, 1500); // Pause at the end of the text
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                textIndex = (textIndex + 1) % textArray.length; // Cycle through texts
+                setTimeout(typeText, 500); // Delay before typing the next text
+            } else {
+                setTimeout(typeText, 50); // Typing speed
+            }
+        }
+
+        // Start typing effect
+        typeText();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
 
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-     <!-- Bootstrap JS and dependencies -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap JS and dependencies -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
 
