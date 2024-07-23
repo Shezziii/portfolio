@@ -38,13 +38,84 @@
 
         }
 
+        .section {
+            padding: 20px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .qualification {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        #read-more-btn {
+            margin-top: 2px;
+            background-color: #007bff !important;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        #read-more-btn:hover {
+            background-color: #0056b3;
+        }
+
+
+        .terminal {
+            background-color: #f3f3f3;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .qualification {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .qualification-image {
+            max-width: 100px;
+            margin-bottom: 20px;
+        }
+
+        .qualification-details {
+            text-align: center;
+        }
+
+        .qualification-details h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .qualification-details p {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+
+        .academic-outcome {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .academic-image {
+            max-width: 200px;
+            margin-bottom: 10px;
+        }
+
+
         .resume-container {
             padding-left: 13%;
             width: 75%;
             height: 50%;
             padding-bottom: 7%;
         }
-        
+
 
         .responsive-iframe {
             position: absolute;
@@ -53,8 +124,8 @@
             width: 100%;
             height: 50%;
             border: none;
-        } 
-       
+        }
+
 
         .download-button {
             display: inline-block;
@@ -84,12 +155,12 @@
             /* Adjust size as needed */
             color: white !important;
         }
-        
+
         @media (max-width: 768px) {
             .contact-icons i {
                 font-size: 58px;
                 color: white !important;
-                
+
                 /* Adjust size for smaller screens */
             }
         }
@@ -209,7 +280,9 @@
 
         .terminal {
             background-color: #222;
-            padding: 35px;
+            padding-left: 15%;
+            padding-right: 15%;
+            font-size: 30px;
             border-radius: 5px;
         }
 
@@ -238,7 +311,7 @@
         .section-title {
             margin-bottom: 20px;
             letter-spacing: 0.05em;
-            line-height:5rem;
+            line-height: 5rem;
         }
 
         .contacts-list {
@@ -270,29 +343,79 @@
             </p>
         </div>
     </div>
+    <br>
+    <div class="section text-center">
+        <h2 class="section-title main-title text-center">Who Am I</h2>
+        <div class="terminal">
+            <p id="bio-text">
+                I am Mohd Shuib Khan, a passionate backend developer with expertise in Laravel, PHP,
+                Node.js, and Python. I excel in solving complex problems and building scalable, efficient
+                applications. With a meticulous approach and a commitment to delivering high-quality
+                projects, I've developed a custom CMS for an e-commerce platform, a real-time task
+                management tool using Node.js, and a robust RESTful API with Python and Flask. I am a
+                dedicated team player and an eager learner, constantly updating my skills to stay at the
+                forefront of technology. I love solving complex problems and building efficient,
+                scalable applications.
+                <span id="more-text" style="display: none;">
+                    As a recent graduate with a Bachelor of Computer Applications (BCA) degree, I possess a solid
+                    foundation in computer science, enriched by a strong passion for technology. During my academic
+                    tenure, I developed and refined my skills in programming, software development, and problem-solving.
+                    In March 2023, I embarked on an enriching internship journey with Novasarc, where I gained hands-on
+                    experience while completing my degree from IFTM University in Moradabad.
+
+                    With over 1.5 years of practical experience, I have cultivated a deep enthusiasm for emerging
+                    technologies and innovation. My commitment to excellence is evident in my diligent work ethic and my
+                    ability to thrive as a collaborative team member. Currently, I am furthering my education by
+                    pursuing a Master of Computer Applications (MCA) degree, which will enable me to enhance my
+                    expertise and stay at the forefront of the tech industry.
+
+                    Driven by a desire to make impactful contributions to groundbreaking projects, I am eager to
+                    leverage my skills and passion for innovation to deliver meaningful solutions in the field of
+                    technology.
+                </span>
+            </p>
+            <button id="read-more-btn" onclick="toggleText()">Read More</button>
+        </div>
+    </div>
+
     <header class="header text-center mt-3">
         <div class="container">
+
 
             <div class="body">
                 <div class="container pt-5 mt-5">
 
+
                     <div class="section">
-                        <h2 class="section-title">Who Am i</h2>
-                        <div class="terminal">
-                            <p>
-                                I am Mohd Shuib Khan, a passionate backend developer with expertise in Laravel, PHP,
-                                Node.js,
-                                and Python. I excel in solving complex problems and building scalable, efficient
-                                applications. With a meticulous approach and a commitment to delivering high-quality
-                                projects, I've developed a custom CMS for an e-commerce platform, a real-time task
-                                management tool using Node.js, and a robust RESTful API with Python and Flask. I am a
-                                dedicated team player and an eager learner, constantly updating my skills to stay at the
-                                forefront of technology. I love solving complex problems and building efficient,
-                                scalable
-                                applications.
-                            </p>
+                        <h2 class="section-title">Qualification</h2>
+                        <div class="qualification">
+                            <div class="qualification">
+                                <img src="https://i.ibb.co/KVbGBPZ/image-removebg-preview.png"
+                                    alt="IFTM University, Moradabad" class="qualification-image">
+                                <div class="qualification-details">
+                                    <h3>IFTM University, Moradabad</h3>
+                                    <p>Bachelor of Computer Application - BCA, Information Technology<br>2020 -
+                                        2023<br>Grade: 9.02 CGPA</p>
+                                    <p>🎓 I am a recent graduate with a Bachelor of Computer Applications (BCA) degree
+                                        from IFTM University Moradabad, equipped with a strong foundation in computer
+                                        science and a passion for technology.</p>
+                                    <p>💻 Object-Oriented Programming (OOP), MongoDB and +3 skills</p>
+                                    <div class="academic-outcome">
+                                        <a href="https://media.licdn.com/dms/image/D4D2DAQG-CMurXNkVjw/profile-treasury-image-shrink_800_800/0/1694959002635?e=1722355200&v=beta&t=uAHcMSmkPnh0uGdgF5g0eFH3_J9RX0DsW0amc_3IPIk"
+                                            download="BCA_Academic_Outcome.png">
+                                            <img src="https://media.licdn.com/dms/image/D4D2DAQG-CMurXNkVjw/profile-treasury-image-shrink_800_800/0/1694959002635?e=1722355200&v=beta&t=uAHcMSmkPnh0uGdgF5g0eFH3_J9RX0DsW0amc_3IPIk"
+                                                alt="BCA Academic Outcome" class="academic-image">
+                                        </a>
+                                        <p><strong>BCA Academic Outcome:</strong><br>My BCA journey was a transformative
+                                            exploration of computer applications, marked by academic excellence and a
+                                            growing passion for technology and innovation.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
+
                     <div class="section">
                         <h2 class="section-title">Tech & Tools</h2>
                         <ul class="skills-list">
@@ -365,7 +488,8 @@
                     <div class="section">
                         <h2 class="section-title">My Resume</h2>
                         <div class="resume-container text-center">
-                            <a href="https://ibb.co/1939TLr"><img src="https://i.ibb.co/7GHGKXn/image.png" alt="image" border="0"></a>
+                            <a href="https://ibb.co/1939TLr"><img src="https://i.ibb.co/7GHGKXn/image.png" alt="image"
+                                    border="0"></a>
                         </div>
                         <div class="text-center mt-4">
                             <a href="https://media.licdn.com/dms/image/D4D2DAQE4XaQKeELJPg/profile-treasury-image-shrink_1280_1280/0/1695796798926?e=1722351600&v=beta&t=kXbyQluvMNnZmQwVnM6A_gcgoNeM622-BWcEwCvOsZ8"
@@ -481,6 +605,20 @@
                 setTimeout(typeText, 50); // Typing speed
             }
         }
+
+        function toggleText() {
+            var moreText = document.getElementById("more-text");
+            var btnText = document.getElementById("read-more-btn");
+
+            if (moreText.style.display === "none") {
+                moreText.style.display = "inline";
+                btnText.innerHTML = "Read Less";
+            } else {
+                moreText.style.display = "none";
+                btnText.innerHTML = "Read More";
+            }
+        }
+
 
         // Start typing effect
         typeText();
