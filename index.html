@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,7 +17,6 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-
     <link rel="icon" type="image/x-icon"
         href="https://bcscallprocessing.com/wp-content/uploads/2019/11/cropped-favicon-500x500.png">
 
@@ -28,13 +26,42 @@
         * {
             font-family: serif;
             background-image: url("https://media.tenor.com/MiiSaoOtKHgAAAAC/black-background.gif");
-            background-size: cover; /* Make the background image cover the entire viewport */
-            background-repeat: no-repeat; /* Prevent the background image from repeating */
-            background-attachment: fixed; /* Make the background image fixed in place */
-            background-position: center; /* Center the background image */
-        
+            background-size: cover;
+            /* Make the background image cover the entire viewport */
+            background-repeat: no-repeat;
+            /* Prevent the background image from repeating */
+            background-attachment: fixed;
+            /* Make the background image fixed in place */
+            background-position: center;
+            /* Center the background image */
+
 
         }
+
+        .resume-container {
+            padding-left: 13%;
+            width: 75%;
+            height: 50%;
+            padding-bottom: 7%;
+        }
+        
+
+        .responsive-iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 50%;
+            border: none;
+        } 
+       
+
+        .download-button {
+            display: inline-block;
+            margin-top: 20px;
+            font-size: 24px;
+        }
+
 
         .carousel-item {
             text-align: center;
@@ -53,14 +80,16 @@
         }
 
         .contact-icons i {
-            font-size: 43px;
+            font-size: 83px;
             /* Adjust size as needed */
-            color: white;
+            color: white !important;
         }
-
+        
         @media (max-width: 768px) {
             .contact-icons i {
-                font-size: 38px;
+                font-size: 58px;
+                color: white !important;
+                
                 /* Adjust size for smaller screens */
             }
         }
@@ -100,7 +129,9 @@
             color: #fff;
             padding: 50px 0;
         }
-        input{
+
+        input,
+        textarea {
             color: white;
         }
 
@@ -194,12 +225,20 @@
             /* Optional: invert control icons for better visibility */
         }
 
+        i {
+            color: #00afff !important;
+            /* Change this color to whatever you like */
+            border: none;
+        }
+
         .section {
             padding: 20px;
         }
 
         .section-title {
             margin-bottom: 20px;
+            letter-spacing: 0.05em;
+            line-height:5rem;
         }
 
         .contacts-list {
@@ -222,8 +261,8 @@
     <!-- Navbar -->
     <div class="row align-items-center">
         <div class="col-12 col-md-6" data-aos="fade-right">
-            <img src="https://s7.ezgif.com/tmp/ezgif-7-1e66a36177.gif"
-                alt="GIF Description" class="img-fluid" style="max-width: 100%;" width="1000px" height="1000px">
+            <img src="https://i.ibb.co/Jrp8D7L/ezgif-com-speed.gif" alt="GIF Description" class="img-fluid"
+                style="max-width: 100%;" width="1000px" height="1000px">
         </div>
         <div class="col-12 col-md-6 text-center" data-aos="fade-left">
             <h1 class="mt-2">Hi, I'm Mohd Shuib Khan</h1>
@@ -233,7 +272,7 @@
     </div>
     <header class="header text-center mt-3">
         <div class="container">
-           
+
             <div class="body">
                 <div class="container pt-5 mt-5">
 
@@ -241,13 +280,15 @@
                         <h2 class="section-title">Who Am i</h2>
                         <div class="terminal">
                             <p>
-                                I am Mohd Shuib Khan, a passionate backend developer with expertise in Laravel, PHP, Node.js,
+                                I am Mohd Shuib Khan, a passionate backend developer with expertise in Laravel, PHP,
+                                Node.js,
                                 and Python. I excel in solving complex problems and building scalable, efficient
                                 applications. With a meticulous approach and a commitment to delivering high-quality
                                 projects, I've developed a custom CMS for an e-commerce platform, a real-time task
                                 management tool using Node.js, and a robust RESTful API with Python and Flask. I am a
                                 dedicated team player and an eager learner, constantly updating my skills to stay at the
-                                forefront of technology. I love solving complex problems and building efficient, scalable
+                                forefront of technology. I love solving complex problems and building efficient,
+                                scalable
                                 applications.
                             </p>
                         </div>
@@ -260,8 +301,8 @@
                                         alt="aws" width="80" height="80" /> </a> <a
                                     href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img
                                         src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash"
-                                        width="80" height="80" /> </a>  <a
-                                    href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img
+                                        width="80" height="80" /> </a> <a href="https://www.cprogramming.com/"
+                                    target="_blank" rel="noreferrer"> <img
                                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"
                                         alt="c" width="80" height="80" /> </a> <a href="https://www.w3schools.com/cpp/"
                                     target="_blank" rel="noreferrer"> <img
@@ -269,25 +310,25 @@
                                         alt="cplusplus" width="80" height="80" /> </a> <a
                                     href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img
                                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-                                        alt="css3" width="80" height="80" /> </a> <a href="https://www.djangoproject.com/"
-                                    target="_blank" rel="noreferrer"> <img
+                                        alt="css3" width="80" height="80" /> </a> <a
+                                    href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img
                                         src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40"
                                         height="40" /> </a> <a href="https://www.docker.com/" target="_blank"
                                     rel="noreferrer"> <img
                                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"
                                         alt="docker" width="80" height="80" /> </a> <a href="https://www.figma.com/"
                                     target="_blank" rel="noreferrer"> <img
-                                        src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40"
-                                        height="40" /> </a> <a href="#" target="_blank"
-                                    rel="noreferrer"> <img
-                                        src="https://iconape.com/wp-content/png_logo_vector/visual-studio-code.png" alt="flask"
-                                        width="80" height="80" /> </a> <a href="https://git-scm.com/" target="_blank"
-                                    rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
-                                        alt="git" width="80" height="80" /> </a> <a
+                                        src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma"
+                                        width="40" height="40" /> </a> <a href="#" target="_blank" rel="noreferrer">
+                                    <img src="https://iconape.com/wp-content/png_logo_vector/visual-studio-code.png"
+                                        alt="flask" width="80" height="80" /> </a> <a href="https://git-scm.com/"
+                                    target="_blank" rel="noreferrer"> <img
+                                        src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git"
+                                        width="80" height="80" /> </a> <a
                                     href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"
                                     rel="noreferrer"> <img
                                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-                                        alt="javascript" width="80" height="80" /> </a>  <a href="https://www.linux.org/"
+                                        alt="javascript" width="80" height="80" /> </a> <a href="https://www.linux.org/"
                                     target="_blank" rel="noreferrer"> <img
                                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"
                                         alt="linux" width="80" height="80" /> </a> <a href="https://www.mysql.com/"
@@ -301,27 +342,39 @@
                                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
                                         alt="postgresql" width="80" height="80" /> </a> <a href="https://postman.com"
                                     target="_blank" rel="noreferrer"> <img
-                                        src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman"
-                                        width="80" height="80" /> </a> <a href="https://www.python.org" target="_blank"
-                                    rel="noreferrer"> <img
+                                        src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+                                        alt="postman" width="80" height="80" /> </a> <a href="https://www.python.org"
+                                    target="_blank" rel="noreferrer"> <img
                                         src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
                                         alt="python" width="80" height="80" /> </a> <a href="https://www.sqlite.org/"
                                     target="_blank" rel="noreferrer"> <img
                                         src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite"
-                                        width="80" height="80" /> </a> 
-                                    <a href="https://www.sqlite.org/"
-                                    target="_blank" rel="noreferrer"> <img
-                                        src="https://logospng.org/download/laravel/logo-laravel-icon-1024.png" alt="sqlite"
-                                        width="80" height="80" /> </a> 
-                                        <a href="https://www.sqlite.org/"
-                                        target="_blank" rel="noreferrer"> <img
-                                            src="https://th.bing.com/th/id/R.76984d489016bb78c8c347e661bb8e94?rik=v6h54jhMOjGWxg&riu=http%3a%2f%2fassets.stickpng.com%2fimages%2f62a76492bd73a4af5c5d4fb9.png&ehk=CCD7CF%2fzwR7i%2bBDVkut8Jbuzx%2bibavojdYkrIJG2PIc%3d&risl=&pid=ImgRaw&r=0" alt="sqlite"
-                                            width="100" height="100" /> </a> 
-                                    </p>
-                                        
-    
+                                        width="80" height="80" /> </a>
+                                <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img
+                                        src="https://logospng.org/download/laravel/logo-laravel-icon-1024.png"
+                                        alt="sqlite" width="80" height="80" /> </a>
+                                <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img
+                                        src="https://th.bing.com/th/id/R.76984d489016bb78c8c347e661bb8e94?rik=v6h54jhMOjGWxg&riu=http%3a%2f%2fassets.stickpng.com%2fimages%2f62a76492bd73a4af5c5d4fb9.png&ehk=CCD7CF%2fzwR7i%2bBDVkut8Jbuzx%2bibavojdYkrIJG2PIc%3d&risl=&pid=ImgRaw&r=0"
+                                        alt="sqlite" width="100" height="100" /> </a>
+                            </p>
+
+
                         </ul>
                     </div>
+
+                    <div class="section">
+                        <h2 class="section-title">My Resume</h2>
+                        <div class="resume-container text-center">
+                            <a href="https://ibb.co/1939TLr"><img src="https://i.ibb.co/7GHGKXn/image.png" alt="image" border="0"></a>
+                        </div>
+                        <div class="text-center mt-4">
+                            <a href="https://media.licdn.com/dms/image/D4D2DAQE4XaQKeELJPg/profile-treasury-image-shrink_1280_1280/0/1695796798926?e=1722351600&v=beta&t=kXbyQluvMNnZmQwVnM6A_gcgoNeM622-BWcEwCvOsZ8"
+                                download="Mohd_Shuib_Khan_Resume.pdf" class="">
+                                <i class="fa fa-cloud-download fa-4x"></i>
+                            </a>
+                        </div>
+                    </div>
+
                     <!-- <div class="section">
                         <h2 class="section-title">Projects</h2>
                         <ul class="projects-list">
@@ -339,20 +392,21 @@
                             <ul class="contacts-list">
                                 <div class="container mt-5">
                                     <div class="contact-icons mt-4">
-                                        <a href="https://github.com/shezii" target="_blank" class="text-decoration-none">
-                                            <i class="fab fa-github"></i>
+                                        <a href="https://github.com/shezii" target="_blank"
+                                            class="text-decoration-none">
+                                            <i class="fab fa-github fa-5x"></i>
                                         </a>
                                         <a href="https://www.linkedin.com/in/mohd-shuib-khan" target="_blank"
                                             class="text-decoration-none">
-                                            <i class="fab fa-linkedin"></i>
+                                            <i class="fab fa-linkedin fa-5x"></i>
                                         </a>
                                         <a href="mailto:i.am.shezziii@gmail.com" class="text-decoration-none">
-                                            <i class="fas fa-envelope"></i>
+                                            <i class="fas fa-envelope fa-5x"></i>
                                         </a>
                                     </div>
                             </ul>
-    
-    
+
+
                         </div>
                         <div class="section">
                             <h2 class="section-title">Get in Touch</h2>
@@ -368,9 +422,9 @@
                                     <textarea id="message" name="message" rows="5"
                                         style="width: 100%; padding: 5px; margin-bottom: 10px;"></textarea>
                                     <button type="submit"
-                                    style="background-color: #cf3928 !important; color: #fff; padding: 10px; border: none; cursor: pointer;">Send
-                                    Message</button>
-                                
+                                        style="background-color: #cf3928 !important; color: #bb3535; padding: 10px; border: none; cursor: pointer;">
+                                        <i class="fa fa-paper-plane fa-4x" aria-hidden="true"></i></button>
+
                                 </div>
                             </form>
                         </div>
