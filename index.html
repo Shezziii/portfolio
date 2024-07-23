@@ -64,6 +64,68 @@
             background-color: #0056b3;
         }
 
+        /* Ensure the section and container are centered and responsive */
+.section {
+    padding: 20px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* Responsive image styling */
+.resume-container .responsive-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style for the download link */
+.download-link {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.download-link i {
+    color: #000; /* Adjust the color as needed */
+}
+
+/* Responsive text center */
+.text-center {
+    text-align: center;
+}
+
+/* Margin for small screens */
+.mt-4 {
+    margin-top: 1rem;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 1.25rem;
+    }
+
+    .fa-4x {
+        font-size: 3rem; /* Adjust icon size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .section-title {
+        font-size: 1rem;
+    }
+
+    .fa-4x {
+        font-size: 2rem; /* Further adjust icon size for very small screens */
+    }
+}
+
 
         .terminal {
             background-color: #f3f3f3;
@@ -108,13 +170,6 @@
             margin-bottom: 10px;
         }
 
-
-        .resume-container {
-            padding-left: 13%;
-            width: 75%;
-            height: 50%;
-            padding-bottom: 7%;
-        }
 
 
         .responsive-iframe {
@@ -313,6 +368,18 @@
             letter-spacing: 0.05em;
             line-height: 5rem;
         }
+        .main-title {
+            margin-left: 30px;
+            margin-right: 30px;
+            letter-spacing: 0.05em;
+            line-height: 5rem;
+            font-size: 24px;
+            margin-bottom: 20px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #fff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
 
         .contacts-list {
             list-style-type: none;
@@ -488,16 +555,17 @@
                     <div class="section">
                         <h2 class="section-title">My Resume</h2>
                         <div class="resume-container text-center">
-                            <a href="https://ibb.co/1939TLr"><img src="https://i.ibb.co/7GHGKXn/image.png" alt="image"
-                                    border="0"></a>
+                            <a href="https://ibb.co/1939TLr">
+                                <img src="https://i.ibb.co/7GHGKXn/image.png" alt="image" border="0" class="responsive-img">
+                            </a>
                         </div>
                         <div class="text-center mt-4">
-                            <a href="https://media.licdn.com/dms/image/D4D2DAQE4XaQKeELJPg/profile-treasury-image-shrink_1280_1280/0/1695796798926?e=1722351600&v=beta&t=kXbyQluvMNnZmQwVnM6A_gcgoNeM622-BWcEwCvOsZ8"
-                                download="Mohd_Shuib_Khan_Resume.pdf" class="">
+                            <a href="https://media.licdn.com/dms/image/D4D2DAQE4XaQKeELJPg/profile-treasury-image-shrink_1280_1280/0/1695796798926?e=1722351600&v=beta&t=kXbyQluvMNnZmQwVnM6A_gcgoNeM622-BWcEwCvOsZ8" download="Mohd_Shuib_Khan_Resume.pdf" class="download-link">
                                 <i class="fa fa-cloud-download fa-4x"></i>
                             </a>
                         </div>
                     </div>
+                    
 
                     <!-- <div class="section">
                         <h2 class="section-title">Projects</h2>
