@@ -65,66 +65,69 @@
         }
 
         /* Ensure the section and container are centered and responsive */
-.section {
-    padding: 20px;
-    max-width: 100%;
-    box-sizing: border-box;
-}
+        .section {
+            padding: 20px;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
 
-.section-title {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-}
+        .section-title {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
 
-/* Responsive image styling */
-.resume-container .responsive-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
+        /* Responsive image styling */
+        .resume-container .responsive-img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
 
-/* Style for the download link */
-.download-link {
-    display: inline-block;
-    text-decoration: none;
-    color: inherit;
-}
+        /* Style for the download link */
+        .download-link {
+            display: inline-block;
+            text-decoration: none;
+            color: inherit;
+        }
 
-.download-link i {
-    color: #000; /* Adjust the color as needed */
-}
+        .download-link i {
+            color: #000;
+            /* Adjust the color as needed */
+        }
 
-/* Responsive text center */
-.text-center {
-    text-align: center;
-}
+        /* Responsive text center */
+        .text-center {
+            text-align: center;
+        }
 
-/* Margin for small screens */
-.mt-4 {
-    margin-top: 1rem;
-}
+        /* Margin for small screens */
+        .mt-4 {
+            margin-top: 1rem;
+        }
 
-/* Responsive behavior */
-@media (max-width: 768px) {
-    .section-title {
-        font-size: 1.25rem;
-    }
+        /* Responsive behavior */
+        @media (max-width: 768px) {
+            .section-title {
+                font-size: 1.25rem;
+            }
 
-    .fa-4x {
-        font-size: 3rem; /* Adjust icon size for smaller screens */
-    }
-}
+            .fa-4x {
+                font-size: 3rem;
+                /* Adjust icon size for smaller screens */
+            }
+        }
 
-@media (max-width: 480px) {
-    .section-title {
-        font-size: 1rem;
-    }
+        @media (max-width: 480px) {
+            .section-title {
+                font-size: 1rem;
+            }
 
-    .fa-4x {
-        font-size: 2rem; /* Further adjust icon size for very small screens */
-    }
-}
+            .fa-4x {
+                font-size: 2rem;
+                /* Further adjust icon size for very small screens */
+            }
+        }
 
 
         .terminal {
@@ -166,8 +169,8 @@
         }
 
         .academic-image {
-            max-width: 200px;
-            margin-bottom: 10px;
+            max-width: 200px !important;
+            margin-bottom: 10px !important;
         }
 
 
@@ -368,6 +371,7 @@
             letter-spacing: 0.05em;
             line-height: 5rem;
         }
+
         .main-title {
             margin-left: 30px;
             margin-right: 30px;
@@ -392,6 +396,55 @@
 
         .contacts-list a {
             text-decoration: none;
+        }
+
+
+        .experience-section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background-color: #333;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        .experience-item {
+            position: relative;
+            margin-bottom: 40px;
+        }
+
+        .experience-content {
+            padding-left: 40px;
+        }
+
+        .company-logo {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 10px;
+            border-radius: 50%;
+        }
+
+        .company-details,
+        .job-title {
+            text-align: center;
+        }
+
+        .academic-outcome img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .experience-content p,
+        .experience-content h3,
+        .experience-content h4 {
+            color: #aaa;
         }
     </style>
 </head>
@@ -453,34 +506,7 @@
                 <div class="container pt-5 mt-5">
 
 
-                    <div class="section">
-                        <h2 class="section-title">Qualification</h2>
-                        <div class="qualification">
-                            <div class="qualification">
-                                <img src="https://i.ibb.co/KVbGBPZ/image-removebg-preview.png"
-                                    alt="IFTM University, Moradabad" class="qualification-image">
-                                <div class="qualification-details">
-                                    <h3>IFTM University, Moradabad</h3>
-                                    <p>Bachelor of Computer Application - BCA, Information Technology<br>2020 -
-                                        2023<br>Grade: 9.02 CGPA</p>
-                                    <p>🎓 I am a recent graduate with a Bachelor of Computer Applications (BCA) degree
-                                        from IFTM University Moradabad, equipped with a strong foundation in computer
-                                        science and a passion for technology.</p>
-                                    <p>💻 Object-Oriented Programming (OOP), MongoDB and +3 skills</p>
-                                    <div class="academic-outcome">
-                                        <a href="https://media.licdn.com/dms/image/D4D2DAQG-CMurXNkVjw/profile-treasury-image-shrink_800_800/0/1694959002635?e=1722355200&v=beta&t=uAHcMSmkPnh0uGdgF5g0eFH3_J9RX0DsW0amc_3IPIk"
-                                            download="BCA_Academic_Outcome.png">
-                                            <img src="https://media.licdn.com/dms/image/D4D2DAQG-CMurXNkVjw/profile-treasury-image-shrink_800_800/0/1694959002635?e=1722355200&v=beta&t=uAHcMSmkPnh0uGdgF5g0eFH3_J9RX0DsW0amc_3IPIk"
-                                                alt="BCA Academic Outcome" class="academic-image">
-                                        </a>
-                                        <p><strong>BCA Academic Outcome:</strong><br>My BCA journey was a transformative
-                                            exploration of computer applications, marked by academic excellence and a
-                                            growing passion for technology and innovation.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
 
 
                     <div class="section">
@@ -552,20 +578,129 @@
                         </ul>
                     </div>
 
+
+
+
+                    <div class="experience-section">
+                        <h2 class="section-title">Experience</h2>
+                        <div class="experience-item row">
+                            <div class="experience-content col-12">
+                                <div class="row">
+                                    <div class="company-info col-md-6 text-center mt-5">
+                                        <img src="https://media.licdn.com/dms/image/C560BAQFGLj7qTRA9Qw/company-logo_200_200/0/1657917704856/novasarc_logo?e=1729728000&v=beta&t=UUTgBLsj3lK0JnQQqnqiXTt-zrx1VnpjJLxpoy6Hza8"
+                                            alt="Novas Arc Logo" class="company-logo">
+                                        <div class="company-details">
+                                            <h3>Novas Arc</h3>
+                                            <p>1 yr 5 mos</p>
+                                            <p>Hyderabad, Telangana, India</p>
+                                        </div>
+                                        <div class="">
+                                            <h4>Junior Software Engineer</h4>
+                                            <p>Full-time</p>
+                                            <p>Jan 2024 - Present · 7 mos</p>
+                                            <p>Remote</p>
+                                            <p><i class="fa fa-code"></i> Laravel, Teamwork and +2 skills</p>
+                                        </div>
+                                        <div class="">
+                                            <h4>Software Developer Trainee</h4>
+                                            <p>Full-time</p>
+                                            <p>Oct 2023 - Jan 2024 · 4 mos</p>
+                                            <p>Remote</p>
+                                        </div>
+                                        <div class="">
+                                            <h4>Software Development Intern</h4>
+                                            <p>Internship</p>
+                                            <p>Mar 2023 - Oct 2023 · 8 mos</p>
+                                            <p>Remote</p>
+                                            <p><i class="fa fa-code"></i> PHP, AJAX and +11 skills</p>
+                                            <div class="academic-outcome">
+                                                <a href="https://media.licdn.com/dms/image/D4D2DAQFRZKIpcLrHLg/profile-treasury-image-shrink_1280_1280/0/1697426138163?e=1722405600&v=beta&t=YN0eXoKUFZsWDLKR23YTVy0xwJ5NqiFn816SEwb6f5s"
+                                                    download="BCA_Academic_Outcome.png">
+                                                    <img style="width: 200px; height: 250px;"
+                                                        src="https://media.licdn.com/dms/image/D4D2DAQFRZKIpcLrHLg/profile-treasury-image-shrink_1280_1280/0/1697426138163?e=1722405600&v=beta&t=YN0eXoKUFZsWDLKR23YTVy0xwJ5NqiFn816SEwb6f5s"
+                                                        alt="Internship Experience Letter">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 text-center mt-5">
+                                        <div class="company-info">
+                                            <img src="https://media.licdn.com/dms/image/C560BAQEJe-MEhPTm7w/company-logo_200_200/0/1631379336837?e=1729728000&v=beta&t=9NtI1KejxcQ3Cc1zXISh8fFBzz1MYkYERa8xKCefOlI"
+                                                alt="Freelancer Logo" class="company-logo">
+                                            <div class="company-details">
+                                                <h3>Freelancer.com - Freelance</h3>
+                                                <p>1 yr 3 mos</p>
+                                                <p>India · Remote</p>
+                                            </div>
+                                            <div class="job-title">
+                                                <h4>Software Developer</h4>
+                                                <p>Jul 2022 - Sep 2023 · 1 yr 3 mos</p>
+                                                <p><i class="fa fa-code"></i> Django, Python and +8 skills</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    <div class="section">
+                        <h2 class="section-title">Qualification</h2>
+                        <div class="qualification">
+                            <div class="qualification">
+                                <img src="https://i.ibb.co/KVbGBPZ/image-removebg-preview.png"
+                                    alt="IFTM University, Moradabad" class="qualification-image">
+                                <div class="qualification-details">
+                                    <h3>IFTM University, Moradabad</h3>
+                                    <p>Bachelor of Computer Application - BCA, Information Technology<br>2020 -
+                                        2023<br>Grade: 9.02 CGPA</p>
+                                    <p>🎓 I am a recent graduate with a Bachelor of Computer Applications (BCA) degree
+                                        from IFTM University Moradabad, equipped with a strong foundation in computer
+                                        science and a passion for technology.</p>
+                                    <p>💻 Object-Oriented Programming (OOP), MongoDB and +3 skills</p>
+                                    <div class="academic-outcome">
+                                        <a href="https://media.licdn.com/dms/image/D4D2DAQG-CMurXNkVjw/profile-treasury-image-shrink_800_800/0/1694959002635?e=1722355200&v=beta&t=uAHcMSmkPnh0uGdgF5g0eFH3_J9RX0DsW0amc_3IPIk"
+                                            download="BCA_Academic_Outcome.png">
+                                            <img src="https://media.licdn.com/dms/image/D4D2DAQG-CMurXNkVjw/profile-treasury-image-shrink_800_800/0/1694959002635?e=1722355200&v=beta&t=uAHcMSmkPnh0uGdgF5g0eFH3_J9RX0DsW0amc_3IPIk"
+                                                alt="BCA Academic Outcome" class="academic-image">
+                                        </a>
+                                        <p><strong>BCA Academic Outcome:</strong><br>My BCA journey was a transformative
+                                            exploration of computer applications, marked by academic excellence and a
+                                            growing passion for technology and innovation.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
                     <div class="section">
                         <h2 class="section-title">My Resume</h2>
                         <div class="resume-container text-center">
                             <a href="https://ibb.co/1939TLr">
-                                <img src="https://i.ibb.co/7GHGKXn/image.png" alt="image" border="0" class="responsive-img">
+                                <img src="https://i.ibb.co/7GHGKXn/image.png" alt="image" border="0"
+                                    class="responsive-img">
                             </a>
                         </div>
                         <div class="text-center mt-4">
-                            <a href="https://media.licdn.com/dms/image/D4D2DAQE4XaQKeELJPg/profile-treasury-image-shrink_1280_1280/0/1695796798926?e=1722351600&v=beta&t=kXbyQluvMNnZmQwVnM6A_gcgoNeM622-BWcEwCvOsZ8" download="Mohd_Shuib_Khan_Resume.pdf" class="download-link">
+                            <a href="https://media.licdn.com/dms/image/D4D2DAQE4XaQKeELJPg/profile-treasury-image-shrink_1280_1280/0/1695796798926?e=1722351600&v=beta&t=kXbyQluvMNnZmQwVnM6A_gcgoNeM622-BWcEwCvOsZ8"
+                                download="Mohd_Shuib_Khan_Resume.pdf" class="download-link">
                                 <i class="fa fa-cloud-download fa-4x"></i>
                             </a>
                         </div>
                     </div>
-                    
+
 
                     <!-- <div class="section">
                         <h2 class="section-title">Projects</h2>
@@ -603,23 +738,23 @@
                         <div class="section">
                             <h2 class="section-title">Get in Touch</h2>
                             <form id="contact-form">
-                                <div class="terminal">
-                                    <p class="command"> echo "Your Name:"</p>
+                                <div class="terminal" style="max-width: 600px; margin: 0 auto;">
+                                    <p class="command" style="margin-bottom: 5px;">echo "Your Name:"</p>
                                     <input type="text" id="name" name="name"
-                                        style="width: 100%; padding: 5px; margin-bottom: 10px;">
-                                    <p class="command"> echo "Your Email:"</p>
+                                        style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
+                                    <p class="command" style="margin-bottom: 5px;">echo "Your Email:"</p>
                                     <input type="email" id="email" name="email"
-                                        style="width: 100%; padding: 5px; margin-bottom: 10px;">
-                                    <p class="command"> echo "Your Message:"</p>
+                                        style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
+                                    <p class="command" style="margin-bottom: 5px;">echo "Your Message:"</p>
                                     <textarea id="message" name="message" rows="5"
-                                        style="width: 100%; padding: 5px; margin-bottom: 10px;"></textarea>
+                                        style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
                                     <button type="submit"
                                         style="background-color: #cf3928 !important; color: #bb3535; padding: 10px; border: none; cursor: pointer;">
-                                        <i class="fa fa-paper-plane fa-4x" aria-hidden="true"></i></button>
-
+                                        <i class="fa fa-paper-plane fa-2x" aria-hidden="true"></i></button>
                                 </div>
                             </form>
                         </div>
+
                     </div>
                     <script>
                         document.getElementById('contact-form').addEventListener('submit', function (e) {
