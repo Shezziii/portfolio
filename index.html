@@ -24,7 +24,7 @@
         @import url('https://fonts.cdnfonts.com/css/monospace');
 
         body {
-          font-family: "SF Pro Text", Helvetica, sans-serif !important;
+            font-family: "SF Pro Text", Helvetica, sans-serif !important;
             background-image: url("https://media.tenor.com/MiiSaoOtKHgAAAAC/black-background.gif");
             background-size: cover;
             /* Make the background image cover the entire viewport */
@@ -52,15 +52,15 @@
 
         #read-more-btn {
             margin-top: 2px;
-            height:57px;
-            width:70px;
+            height: 57px;
+            width: 70px;
             background-color: #007bff !important;
             color: white;
             border: none;
             cursor: pointer;
         }
 
-        
+
 
         /* Ensure the section and container are centered and responsive */
         .section {
@@ -129,7 +129,7 @@
 
 
         .terminal {
-           
+
             padding: 20px;
             border-radius: 8px;
         }
@@ -145,19 +145,7 @@
             margin-bottom: 20px;
         }
 
-        .qualification-details {
-            text-align: center;
-        }
 
-        .qualification-details h3 {
-            font-size: 20px;
-            margin-bottom: 10px;
-        }
-
-        .qualification-details p {
-            margin-bottom: 10px;
-            line-height: 1.6;
-        }
 
         .academic-outcome {
             display: flex;
@@ -216,10 +204,28 @@
             .contact-icons i {
                 font-size: 58px;
                 color: white !important;
-
                 /* Adjust size for smaller screens */
             }
+
+            .main-block,
+            .secound-block {
+                align-items: center;
+                justify-content: center;
+                margin-top: 0;
+                /* Reset any specific margin */
+                margin-bottom: 0;
+                /* Reset any specific margin */
+                height: 50vh;
+                /* Use half of the viewport height */
+            }
+            .main-block{
+    padding-bottom: 0px;
+    margin-top: 20%;
+    height: 301px;
+}
+            
         }
+
 
         .carousel-control-prev,
         .carousel-control-next {
@@ -287,7 +293,7 @@
         h3,
         h4,
         h5,
-        h6 {
+        h5 {
             color: #3498db;
         }
 
@@ -328,7 +334,7 @@
         }
 
         .terminal {
-           
+
             padding-left: 15%;
             padding-right: 15%;
             border-radius: 5px;
@@ -345,8 +351,9 @@
             filter: invert(100%);
             /* Optional: invert control icons for better visibility */
         }
-        h5{
-            color : white !important;
+
+        h5 {
+            color: white !important;
         }
 
         i {
@@ -391,8 +398,8 @@
             text-decoration: none;
         }
 
-        h4{
-            color:white !important;
+        h4 {
+            color: white !important;
         }
 
         .experience-section {
@@ -436,26 +443,32 @@
             text-align: center;
         }
 
+        .terminal h3 {
+            color: white;
+        }
+
         .experience-content p,
         .experience-content h3,
-        .experience-content h4 {
+        .experience-content h4,
+        h5 {
             color: #aaa;
         }
 
+
         .libutton {
-          font-family: "SF Pro Text", Helvetica, sans-serif;
-          padding-right:12px;
-          padding-left:12px;
-          padding-bottom:8px;
-          padding-top:8px;
-          text-decoration: none !important;
-          color: #ffffff !important;
-          width: 200px;
-          height: 32px;
-          border-radius: 16px !important;
-          background-color: #0A66C2 !important;
+            font-family: "SF Pro Text", Helvetica, sans-serif;
+            padding-right: 12px;
+            padding-left: 12px;
+            padding-bottom: 8px;
+            padding-top: 8px;
+            text-decoration: none !important;
+            color: #ffffff !important;
+            width: 200px;
+            height: 32px;
+            border-radius: 16px !important;
+            background-color: #0A66C2 !important;
         }
-      </style>
+    </style>
     </style>
 </head>
 
@@ -463,50 +476,77 @@
 
     <!-- Navbar -->
     <div class="row align-items-center">
-        <div class="col-12 col-md-6" data-aos="fade-right">
+        <div class="col-12 col-md-6 main-block" data-aos="fade-right">
             <img src="https://i.ibb.co/Jrp8D7L/ezgif-com-speed.gif" alt="GIF Description" class="img-fluid"
                 style="max-width: 100%;" width="1000px" height="1000px">
         </div>
-        <div class="col-12 col-md-6 text-center" data-aos="fade-left">
+        <div class="col-12 col-md-6 text-center secound-block" data-aos="fade-left">
             <h1 class="mt-2">Hi, I'm Mohd Shuib Khan</h1>
             <p class="lead mt-3" id="typing-effect">dd("A student & job seeker with experience in web development.");
             </p>
-            
-     
-<a class="libutton mt-2" href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=mohd-shuib-khan-355796248" target="_blank">Follow on LinkedIn</a>
+
+
+            <a class="libutton mt-2 "
+                href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=mohd-shuib-khan-355796248"
+                target="_blank">Follow on LinkedIn</a>
         </div>
     </div>
     <br>
     <div class="section text-center">
         <h2 class="section-title main-title text-center">Who Am I</h2>
         <div class="terminal">
-            <h3>
-               🔍 Who I Am :
 
-with more than 1.5 years of problem-solving and software development expertise. With a degree in Bachelor of Computer Applications (BCA), I am an enthusiastic and committed technology enthusiast. My work has a solid foundation thanks to my academic path at IFTM University in Moradabad and an enjoyable internship at Novasarc. To keep ahead of the fast-changing IT world.
+            <h4 style="color: #aaa !important;">
+                🔍 Who I Am :
+                With more than 1.5 years of problem-solving and software development expertise. With a degree in
+                Bachelor of Computer Applications (BCA),
+                I am an enthusiastic and committed technology enthusiast. My work has a solid foundation thanks to my
+                academic path at IFTM University in
+                Moradabad and an enjoyable internship at Novasarc. To keep ahead of the fast-changing IT world.
+                <br>
+                🎖️ Key Skills :
+                I possess a diverse skill set across various programming languages, including PHP (***), C, C++, C#,
+                Java, Python (***), and JavaScript.
+                My expertise spans full-stack and backend development, with a strong focus on designing and implementing
+                REST APIs.
+                I excel at problem-solving through analytical thinking, debugging, and optimization. Proficient in tools
+                and technologies such as Docker,
+                AWS, Git, VS Code, Linux, and Postman, I am also experienced in managing both SQL and NoSQL
+                databases.<br>
 
-🎖️ Key Skills :
-
-I possess a diverse skill set across various programming languages, including PHP (***), C, C++, C#, Java, Python (***), and JavaScript. My expertise spans full-stack and backend development, with a strong focus on designing and implementing REST APIs. I excel at problem-solving through analytical thinking, debugging, and optimization. Proficient in tools and technologies such as Docker, AWS, Git, VS Code, Linux, and Postman, I am also experienced in managing both SQL and NoSQL databases.
-                
-           <span id="more-text" style="display: none;">
-                   💼 What I Do :
-
-At Novasarc, I was deeply involved in developing and delivering innovative rest APIs for web solutions. In my position, I worked with cross-functional teams to address challenging backend issues and develop logic for backend, and I used my programming knowledge to create useful APIs and applications.
-I contributed to various projects by designing databases and developing backend solutions. My experience at Novasarc also involved guiding and mentoring team members, ensuring the successful execution and deployment of projects.
-
-🏆 Certifications : 
-
-As evidence of my dedication to developing my technical abilities, I own a number of certificates. I gained practical software development skills during my internship at Novasarc. Furthermore, I have finished courses offered by Great Learning in Python, PHP, Laravel, MySQL, Docker, and Django. My knowledge of relational database management, dynamic web applications, contemporary PHP frameworks,  Python , Docker has been enhanced by these qualifications.
-
-🔮 Future Prospects :
-
-I'm constantly looking for new challenges and chances to put my technological expertise and enthusiasm to use. I am excited to contribute my energy and experience to worthwhile and innovative projects, whether it be a position in software development, a tech company, or a cooperative effort.
-I'm determined to keep developing technological and software development skills with the goal of specializing in [areas of interest, like cloud computing, artificial intelligence, or data analytics]. My objective is to make a contribution to creative projects.
-     
+                <span id="more-text" style="display: none;">
+                    💼 What I Do :
+                    At Novasarc, I was deeply involved in developing and delivering innovative rest APIs for web
+                    solutions. In my position, I worked with
+                    cross-functional teams to address challenging backend issues and develop logic for backend, and I
+                    used my programming knowledge to create
+                    useful APIs and applications.
+                    I contributed to various projects by designing databases and developing backend solutions.
+                    My experience at Novasarc also involved guiding and mentoring team members, ensuring the successful
+                    execution and deployment of projects.
+                    <br>
+                    🏆 Certifications :
+                    As evidence of my dedication to developing my technical abilities, I own a number of certificates. I
+                    gained practical software development
+                    skills during my internship at Novasarc. Furthermore, I have finished courses offered by Great
+                    Learning in Python, PHP, Laravel, MySQL,
+                    Docker, and Django. My knowledge of relational database management, dynamic web applications,
+                    contemporary PHP frameworks, Python, Docker
+                    has been enhanced by these qualifications.
+                    <br>
+                    🔮 Future Prospects :
+                    I'm constantly looking for new challenges and chances to put my technological expertise and
+                    enthusiasm to use. I am excited to contribute my energy and experience to worthwhile and innovative
+                    projects, whether it be a position in software development, a tech company, or a cooperative effort.
+                    I'm determined to keep developing technological and software development skills with the goal of
+                    specializing in [areas of interest, like cloud computing, artificial intelligence, or data
+                    analytics]. My objective is to make a contribution to creative projects.
                 </span>
-            </h3>
-            <button id="read-more-btn" onclick="toggleText()"><img src="https://cdn-icons-png.flaticon.com/512/6202/6202831.png" style="height:50px;"></button>
+            </h4>
+
+
+            <button id="read-more-btn" onclick="toggleText()"><img
+                    src="https://cdn-icons-png.flaticon.com/512/6202/6202831.png" style="height:50px;"></button>
         </div>
     </div>
 
@@ -670,22 +710,27 @@ I'm determined to keep developing technological and software development skills 
                                     alt="IFTM University, Moradabad" class="qualification-image">
                                 <div class="qualification-details">
                                     <h3>IFTM University, Moradabad</h3>
-                                    <h4>Bachelor of Computer Application - BCA, Information Technology<br> </h4> <h5>2020 -
+                                    <h4>Bachelor of Computer Application - BCA, Information Technology<br> </h4>
+                                    <h5>2020 -
                                         2023<br>Grade: 9.02 CGPA</h5>
-                                    <h5>🎓 I am a recent graduate with a Bachelor of Computer Applications (BCA) degree
+                                    <h5 style="color: #aaa !important">🎓 I am a recent graduate with a Bachelor of
+                                        Computer Applications (BCA) degree
                                         from IFTM University Moradabad, equipped with a strong foundation in computer
                                         science and a passion for technology.</h5>
-                                    <h5>💻 Object-Oriented Programming (OOP), MongoDB and +3 skills</h5>
-                                    <div class="academic-outcome">
-                                        <a href="https://media.licdn.com/dms/image/D4D2DAQG-CMurXNkVjw/profile-treasury-image-shrink_800_800/0/1694959002635?e=1722355200&v=beta&t=uAHcMSmkPnh0uGdgF5g0eFH3_J9RX0DsW0amc_3IPIk"
-                                            download="BCA_Academic_Outcome.png">
-                                            <img src="https://media.licdn.com/dms/image/D4D2DAQG-CMurXNkVjw/profile-treasury-image-shrink_800_800/0/1694959002635?e=1722355200&v=beta&t=uAHcMSmkPnh0uGdgF5g0eFH3_J9RX0DsW0amc_3IPIk"
-                                                alt="BCA Academic Outcome" class="academic-image">
-                                        </a>
-                                        <h5><strong>BCA Academic Outcome:</strong> </h5><br> <h5>My BCA journey was a transformative
-                                            exploration of computer applications, marked by academic excellence and a
-                                            growing passion for technology and innovation.</h5>
-                                    </div>
+                                    <h5 style="color: #aaa !important">💻 Object-Oriented Programming (OOP), MongoDB and
+                                        +3 skills</p>
+                                        <div class="academic-outcome">
+                                            <a href="https://media.licdn.com/dms/image/D4D2DAQG-CMurXNkVjw/profile-treasury-image-shrink_800_800/0/1694959002635?e=1722355200&v=beta&t=uAHcMSmkPnh0uGdgF5g0eFH3_J9RX0DsW0amc_3IPIk"
+                                                download="BCA_Academic_Outcome.png">
+                                                <img src="https://media.licdn.com/dms/image/D4D2DAQG-CMurXNkVjw/profile-treasury-image-shrink_800_800/0/1694959002635?e=1722355200&v=beta&t=uAHcMSmkPnh0uGdgF5g0eFH3_J9RX0DsW0amc_3IPIk"
+                                                    alt="BCA Academic Outcome" class="academic-image">
+                                            </a>
+                                            <h5 style="color: #aaa !important"><strong>BCA Academic
+                                                    Outcome:</strong><br>My BCA journey was a transformative
+                                                exploration of computer applications, marked by academic excellence and
+                                                a
+                                                growing passion for technology and innovation.</h5>
+                                        </div>
                                 </div>
                             </div>
                         </div>
@@ -760,8 +805,7 @@ I'm determined to keep developing technological and software development skills 
                                     <p class="command" style="margin-bottom: 5px;">echo "Your Message:"</p>
                                     <textarea id="message" name="message" rows="5"
                                         style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
-                                    <button type="submit"
-                                        style=" border: none; cursor: pointer;">
+                                    <button type="submit" class="btn" style="background-color: #000;">
                                         <i class="fa fa-paper-plane fa-2x" aria-hidden="true"></i></button>
                                 </div>
                             </form>
